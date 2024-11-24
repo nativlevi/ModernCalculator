@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFAEE"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/button_background5"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/button_background4"
+        android:text="1"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/button_background4"
+        android:text="2"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/button_background4"
+        android:text="3"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/button_background3"
+        android:text="4"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/button_background3"
+        android:text="5"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/button_background3"
+        android:text="6"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="336dp"
+        android:background="@drawable/button_background2"
+        android:text="7"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="336dp"
+        android:background="@drawable/button_background2"
+        android:text="8"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="336dp"
+        android:background="@drawable/button_background2"
+        android:text="9"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+
+    <Button
+        android:id="@+id/buttonmul"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="336dp"
+        android:background="@drawable/button_background2"
+        android:text="X"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/buttondev"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="432dp"
+        android:background="@drawable/button_background1"
+        android:text="/"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/button_background3"
+        android:text="-"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/buttonplus"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/button_background4"
+        android:text="+"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/buttonper"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="432dp"
+        android:background="@drawable/button_background1"
+        android:text="%"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/buttonpCA"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="432dp"
+        android:background="@drawable/button_background1"
+        android:drawableTop="@drawable/trash"
+        android:text="CA"
+        android:padding="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/buttonpone"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="432dp"
+        android:background="@drawable/button_background1"
+        android:text="+/-"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+
+    <Button
+        android:id="@+id/buttondel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/button_background5"
+        android:drawableTop="@drawable/clear"
+        android:text="del"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/buttondot"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/button_background5"
+        android:text="."
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <Button
+        android:id="@+id/buttoneq"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/button_background5"
+        android:text="="
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionDragDrop"
+        app:layout_constraintVertical_bias="0.817"
+        tools:targetApi="s_v2" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
