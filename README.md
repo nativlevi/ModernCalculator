@@ -18,4 +18,5 @@ Here are some screenshots of the app:
 ![Main Screen](app/src/main/res/drawable/main_screen.png)
 
 ### Calculation Example
-![Calculation Example](app/src/main/res/raw/video.webm)
+![Calculation Example]([app/src/main/res/raw/video.webm](https://github.com/nativlevi/ModernCalculator/raw/main/app/src/main/res/raw/video.webm
+))
