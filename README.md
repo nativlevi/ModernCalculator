@@ -11,11 +11,7 @@ A modern calculator app developed in **Kotlin** using **Android Studio**. The ap
 
 ---
 
-## Screenshots
-Here are some screenshots of the app:
-
 ### Main Screen
-![Main Screen](app/src/main/res/drawable/main_screen.png)
+<img src="https://github.com/nativlevi/ModernCalculator/raw/main/app/src/main/res/drawable/main_screen.png" alt="Main Screen" width="50%" />
 
-### Calculation Example
-![Calculation Example](app/src/main/res/raw/video.webm)
+
